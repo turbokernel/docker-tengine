@@ -8,4 +8,3 @@ RUN git checkout ubuntu_1604lts
 RUN git pull
 RUN ./server.sh init
 RUN ./tengine.sh install
-RUN ./php.sh install
